@@ -12,6 +12,7 @@ int main()
         scanf("%d", &arr[i]);
 
     //Write your code here
+    
   
     return 0;
 }
