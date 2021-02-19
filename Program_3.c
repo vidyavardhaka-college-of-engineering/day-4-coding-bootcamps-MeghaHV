@@ -18,22 +18,17 @@ int main()
    scanf("%d",&r);
    printf("Enter the number of columns:\n");
    scanf("%d",&c);
-   printf("Enter the elements:\n");
+   printf("Enter the elements:");
    int a[r][c];
    for(i=0;i<r;i++)
-   {
    for(j=0;j<c;j++)
-   {
    scanf("%d\n", &a[i][j]);
-   }
-   }
+   
    printf("Matrix:\n");
    for(i=0;i<r;i++)
-   {
    for(j=0;j<c;j++)
-   {
    printf("%d\n", a[i][j]);
-   }
-   }
+   
+   
    return 0;
 }
